@@ -1,0 +1,15 @@
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\bin\Debug\HttpServerDemo.exe.config
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\bin\Debug\HttpServerDemo.exe
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\bin\Debug\HttpServerDemo.pdb
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\obj\x86\Debug\Interop.NetFwTypeLib.dll
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.csproj.ResolveComReference.cache
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.Form1.resources
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.Properties.Resources.resources
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.exe
+D:\Documents\Visual Studio 2010\Projects\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.pdb
+C:\Users\Administrator\Desktop\httpdemo\HttpServerDemo\HttpServerDemo\bin\Debug\HttpServerDemo.exe.config
+C:\Users\Administrator\Desktop\httpdemo\HttpServerDemo\HttpServerDemo\obj\x86\Debug\Interop.NetFwTypeLib.dll
+C:\Users\Administrator\Desktop\httpdemo\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\httpdemo\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.exe
+C:\Users\Administrator\Desktop\httpdemo\HttpServerDemo\HttpServerDemo\obj\x86\Debug\HttpServerDemo.pdb
