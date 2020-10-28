@@ -57,7 +57,7 @@
             this.textBox1.Location = new System.Drawing.Point(0, 0);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(816, 304);
+            this.textBox1.Size = new System.Drawing.Size(816, 431);
             this.textBox1.TabIndex = 0;
             // 
             // labelServer
@@ -102,7 +102,7 @@
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.Location = new System.Drawing.Point(0, 0);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(816, 188);
+            this.listView1.Size = new System.Drawing.Size(816, 343);
             this.listView1.TabIndex = 6;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -138,7 +138,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.textBox1);
             this.splitContainer1.Size = new System.Drawing.Size(816, 499);
-            this.splitContainer1.SplitterDistance = 188;
+            this.splitContainer1.SplitterDistance = 343;
             this.splitContainer1.TabIndex = 7;
             // 
             // buttonOpenPath
@@ -191,7 +191,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 562);
+            this.ClientSize = new System.Drawing.Size(815, 410);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonOpenPath);
             this.Controls.Add(this.splitContainer1);
@@ -203,7 +203,7 @@
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.labelServer);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "VirtualHttpServer";
             this.Click += new System.EventHandler(this.Form1_Click);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);

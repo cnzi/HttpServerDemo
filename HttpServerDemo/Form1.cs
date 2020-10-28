@@ -14,9 +14,10 @@ namespace HttpServerDemo
     public partial class Form1 : Form
     {
         #region HttpServer相关变量
-        public string Ip = Dns.GetHostEntry(Dns.GetHostName())
-            .AddressList.FirstOrDefault<IPAddress>(a => a.AddressFamily.ToString().Equals("InterNetwork")).ToString();
+        //public string Ip = Dns.GetHostEntry(Dns.GetHostName())
+        //    .AddressList.FirstOrDefault<IPAddress>(a => a.AddressFamily.ToString().Equals("InterNetwork")).ToString();
 
+        public string Ip = "127.0.0.1";
         public int Port = 9091;
 
         public string EnvironmentUserName = Environment.UserName;
@@ -209,6 +210,9 @@ namespace HttpServerDemo
 
                 foreach (var item in list)
                 {
+                    //如果末尾名是.exe 则跳过
+                    if (item.FileName.EndsWith(".exe")) continue;
+
                     Console.WriteLine(string.Format("文件名：{0}---文件目录{1}", item.FileName, item.FilePath));
                     string url = "http://" + item.FileRout.Replace(path, textBoxIP.Text.Trim() + ":" + textBoxPort.Text.Trim()).Replace('\\', '/') + "/";
                     string content = new StreamReader(item.FilePath, Encoding.Default).ReadToEnd();
